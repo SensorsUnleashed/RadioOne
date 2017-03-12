@@ -68,6 +68,12 @@ F 0 "U1" H 4650 -150 60  0000 C CNN
 F 1 "CC2538" H 6250 -150 60  0000 C CNN
 F 2 "Housings_DFN_QFN:QFN-56-1EP_7x7mm_Pitch0.4mm" H 5650 1900 60  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/cc2538" H 9950 1250 60  0001 C CNN
+F 4 "RF IEEE802.15.4 radio, 512kB Flash, 32kB RAM" H 5550 2250 60  0001 C CNN "Characteristics"
+F 5 "56-VFQFN" H 5550 2250 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 5550 2250 60  0001 C CNN "Supplier"
+F 7 "Texas Instruments" H 5550 2250 60  0001 C CNN "Manufacturer Name"
+F 8 "CC2538NF53RTQR" H 5550 2250 60  0001 C CNN "Manufacturer Part Number"
+F 9 "296-39979-1-ND" H 5550 2250 60  0001 C CNN "Supplier Order number"
 	1    5550 2250
 	1    0    0    -1  
 $EndComp
@@ -113,23 +119,16 @@ L C C5
 U 1 1 53D1184B
 P 2800 3000
 F 0 "C5" H 2800 3100 40  0000 L CNN
-F 1 "12p" H 2806 2915 40  0000 L CNN
+F 1 "12pF" H 2806 2915 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0402_NoSilk" H 2838 2850 30  0001 C CNN
-F 3 "~" H 2800 3000 60  0000 C CNN
-F 4 "3.3" H 2800 3000 60  0001 C CNN "Voltage"
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 2800 3000 60  0001 C CNN
+F 4 "CERAMIC C0G/NP0, 50V, -5%/+5%, -55DEGC/+125DEGC" H 2800 3000 60  0001 C CNN "Characteristics"
+F 5 "0402" H 2800 3000 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 2800 3000 60  0001 C CNN "Supplier"
+F 7 "Murata Electronics North America" H 2800 3000 60  0001 C CNN "Manufacturer Name"
+F 8 "GRM1555C1H120JA01D" H 2800 3000 60  0001 C CNN "Manufacturer Part Number"
+F 9 "490-5924-1-ND" H 2800 3000 60  0001 C CNN "Supplier Order number"
 	1    2800 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C6
-U 1 1 53D11858
-P 3400 3000
-F 0 "C6" H 3400 3100 40  0000 L CNN
-F 1 "12p" H 3406 2915 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0402_NoSilk" H 3438 2850 30  0001 C CNN
-F 3 "~" H 3400 3000 60  0000 C CNN
-F 4 "3.3" H 3400 3000 60  0001 C CNN "Voltage"
-	1    3400 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -159,23 +158,16 @@ L C C8
 U 1 1 53D118E5
 P 3550 4800
 F 0 "C8" H 3550 4900 40  0000 L CNN
-F 1 "22p" H 3556 4715 40  0000 L CNN
+F 1 "22pF" H 3556 4715 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0402_NoSilk" H 3588 4650 30  0001 C CNN
-F 3 "~" H 3550 4800 60  0000 C CNN
-F 4 "3.3" H 3550 4800 60  0001 C CNN "Voltage"
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 3550 4800 60  0001 C CNN
+F 4 "CERAMIC C0G/NP0, 50V, -5%/+5%, -55DEGC/+125DEGC" H 3550 4800 60  0001 C CNN "Characteristics"
+F 5 "0402" H 3550 4800 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 3550 4800 60  0001 C CNN "Supplier"
+F 7 "Murata Electronics North America" H 3550 4800 60  0001 C CNN "Manufacturer Name"
+F 8 "GRM1555C1H220JA01J" H 3550 4800 60  0001 C CNN "Manufacturer Part Number"
+F 9 "490-11382-1-ND" H 3550 4800 60  0001 C CNN "Supplier Order number"
 	1    3550 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C9
-U 1 1 53D118EB
-P 4150 4800
-F 0 "C9" H 4150 4900 40  0000 L CNN
-F 1 "22p" H 4156 4715 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0402_NoSilk" H 4188 4650 30  0001 C CNN
-F 3 "~" H 4150 4800 60  0000 C CNN
-F 4 "3.3" H 4150 4800 60  0001 C CNN "Voltage"
-	1    4150 4800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -198,30 +190,6 @@ F 1 "GND" H 3550 4930 30  0001 C CNN
 F 2 "" H 3550 5000 60  0000 C CNN
 F 3 "" H 3550 5000 60  0000 C CNN
 	1    3550 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C2
-U 1 1 53D11950
-P 3600 1550
-F 0 "C2" H 3525 1625 40  0000 L CNN
-F 1 "1u" H 3606 1465 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0402_NoSilk" H 3638 1400 30  0001 C CNN
-F 3 "~" H 3600 1550 60  0000 C CNN
-F 4 "3.3" H 3600 1550 60  0001 C CNN "Voltage"
-	1    3600 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C4
-U 1 1 53D11956
-P 3650 2200
-F 0 "C4" H 3650 2300 40  0000 L CNN
-F 1 "1u" H 3656 2115 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0402_NoSilk" H 3688 2050 30  0001 C CNN
-F 3 "~" H 3650 2200 60  0000 C CNN
-F 4 "3.3" H 3650 2200 60  0001 C CNN "Voltage"
-	1    3650 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -253,7 +221,13 @@ P 8100 1050
 F 0 "R1" V 8180 1050 40  0000 C CNN
 F 1 "2k2" V 8107 1051 40  0000 C CNN
 F 2 "Resistors_SMD:R_0402_NoSilk" V 8030 1050 30  0001 C CNN
-F 3 "~" H 8100 1050 30  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_6.pdf" H 8100 1050 30  0001 C CNN
+F 4 "Thick Film, 1%" H 8100 1050 60  0001 C CNN "Characteristics"
+F 5 "0402" H 8100 1050 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 8100 1050 60  0001 C CNN "Supplier"
+F 7 "Yageo" H 8100 1050 60  0001 C CNN "Manufacturer Name"
+F 8 "RC0402FR-072K2L" H 8100 1050 60  0001 C CNN "Manufacturer Part Number"
+F 9 "311-2.20KLRCT-ND" H 8100 1050 60  0001 C CNN "Supplier Order number"
 	1    8100 1050
 	0    -1   -1   0   
 $EndComp
@@ -262,10 +236,15 @@ L C C1
 U 1 1 53D119E5
 P 7750 1250
 F 0 "C1" H 7750 1350 40  0000 L CNN
-F 1 "1n" H 7756 1165 40  0000 L CNN
+F 1 "1nF" H 7756 1165 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0402_NoSilk" H 7788 1100 30  0001 C CNN
-F 3 "~" H 7750 1250 60  0000 C CNN
-F 4 "3.3" H 7750 1250 60  0001 C CNN "Voltage"
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7750 1250 60  0001 C CNN
+F 4 "CERAMIC X7R, 50V, -10%/+10%, -55DEGC/+125DEGC" H 7750 1250 60  0001 C CNN "Characteristics"
+F 5 "0402" H 7750 1250 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 7750 1250 60  0001 C CNN "Supplier"
+F 7 "Murata Electronics North America" H 7750 1250 60  0001 C CNN "Manufacturer Name"
+F 8 "GRM155R71H102KA01D" H 7750 1250 60  0001 C CNN "Manufacturer Part Number"
+F 9 "490-1303-1-ND" H 7750 1250 60  0001 C CNN "Supplier Order number"
 	1    7750 1250
 	1    0    0    -1  
 $EndComp
@@ -289,7 +268,13 @@ P 7150 1550
 F 0 "R3" V 7230 1550 40  0000 C CNN
 F 1 "56k" V 7157 1551 40  0000 C CNN
 F 2 "Resistors_SMD:R_0402_NoSilk" V 7080 1550 30  0001 C CNN
-F 3 "~" H 7150 1550 30  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_6.pdf" H 7150 1550 30  0001 C CNN
+F 4 "Thick Film, 1%" H 7150 1550 60  0001 C CNN "Characteristics"
+F 5 "0402" H 7150 1550 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 7150 1550 60  0001 C CNN "Supplier"
+F 7 "Yageo" H 7150 1550 60  0001 C CNN "Manufacturer Name"
+F 8 "RC0402FR-0756KL" H 7150 1550 60  0001 C CNN "Manufacturer Part Number"
+F 9 "311-56.0KLRCT-ND" H 7150 1550 60  0001 C CNN "Supplier Order number"
 	1    7150 1550
 	0    -1   -1   0   
 $EndComp
@@ -411,10 +396,13 @@ P 1200 6550
 F 0 "LED1" H 1250 6650 50  0000 R CNN
 F 1 "Green" H 1250 6450 50  0000 R CNN
 F 2 "LEDs:LED_0402" H 1282 6432 60  0001 R CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-110/S_110_LTST-C171KSKT.pdf" H 1200 6550 60  0001 C CNN
-F 4 "0805" H 1200 6550 60  0001 C CNN "Package ID"
-F 5 "LITE-ON" H 1200 6550 60  0001 C CNN "Manufacturer Name"
-F 6 "LTST-C171GKT" H 1200 6550 60  0001 C CNN "Manufacturer Part Number"
+F 3 "http://www.semicon.panasonic.co.jp/ds4/LNJ347W83RA_E.pdf" H 1200 6550 60  0001 C CNN
+F 4 "1.95V, 5mA" H 1200 6550 60  0001 C CNN "Characteristics"
+F 5 "0805" H 1200 6550 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 1200 6550 60  0001 C CNN "Supplier"
+F 7 "Panasonic Electronic Components" H 1200 6550 60  0001 C CNN "Manufacturer Name"
+F 8 "LNJ347W83RA" H 1200 6550 60  0001 C CNN "Manufacturer Part Number"
+F 9 "LNJ347W83RACT-ND" H 1200 6550 60  0001 C CNN "Supplier Order number"
 	1    1200 6550
 	0    -1   -1   0   
 $EndComp
@@ -423,12 +411,15 @@ L LED LED2
 U 1 1 53D8E49D
 P 1500 6550
 F 0 "LED2" H 1500 6650 50  0000 C CNN
-F 1 "Yellow" H 1500 6450 50  0000 C CNN
+F 1 "Amber" H 1500 6450 50  0000 C CNN
 F 2 "LEDs:LED_0402" H 1500 6550 60  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-110/S_110_LTST-C171KSKT.pdf" H 1500 6550 60  0001 C CNN
-F 4 "0805" H 1500 6550 60  0001 C CNN "Package ID"
-F 5 "LITE-ON" H 1500 6550 60  0001 C CNN "Manufacturer Name"
-F 6 "LTST-C171KSKT" H 1500 6550 60  0001 C CNN "Manufacturer Part Number"
+F 3 "http://www.semicon.panasonic.co.jp/ds4/LNJ447W84RA1_E.pdf" H 1500 6550 60  0001 C CNN
+F 4 "1.95V, 5mA" H 1500 6550 60  0001 C CNN "Characteristics"
+F 5 "0805" H 1500 6550 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 1500 6550 60  0001 C CNN "Supplier"
+F 7 "Panasonic Electronic Components" H 1500 6550 60  0001 C CNN "Manufacturer Name"
+F 8 "LNJ447W84RA1" H 1500 6550 60  0001 C CNN "Manufacturer Part Number"
+F 9 "LNJ447W84RA1CT-ND" H 1500 6550 60  0001 C CNN "Supplier Order number"
 	1    1500 6550
 	0    -1   -1   0   
 $EndComp
@@ -439,10 +430,13 @@ P 1800 6550
 F 0 "LED3" H 1800 6650 50  0000 C CNN
 F 1 "Orange" H 1800 6450 50  0000 C CNN
 F 2 "LEDs:LED_0402" H 1800 6550 60  0001 C CNN
-F 3 "hhttp://optoelectronics.liteon.com/upload/download/DS-22-99-0185/S_110_LTST-C170KFKT.pdf" H 1800 6550 60  0001 C CNN
-F 4 "0805" H 1800 6550 60  0001 C CNN "Package ID"
-F 5 "LITE-ON" H 1800 6550 60  0001 C CNN "Manufacturer Name"
-F 6 "LTST-C170KFKT" H 1800 6550 60  0001 C CNN "Manufacturer Part Number"
+F 3 "http://www.semicon.panasonic.co.jp/ds4/LNJ847W83RA_E.pdf" H 1800 6550 60  0001 C CNN
+F 4 "1.95V, 5mA" H 1800 6550 60  0001 C CNN "Characteristics"
+F 5 "0805" H 1800 6550 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 1800 6550 60  0001 C CNN "Supplier"
+F 7 "Panasonic Electronic Components" H 1800 6550 60  0001 C CNN "Manufacturer Name"
+F 8 "LNJ847W83RA" H 1800 6550 60  0001 C CNN "Manufacturer Part Number"
+F 9 "LNJ847W83RACT-ND" H 1800 6550 60  0001 C CNN "Supplier Order number"
 	1    1800 6550
 	0    -1   -1   0   
 $EndComp
@@ -453,45 +447,16 @@ P 2100 6550
 F 0 "LED4" H 2100 6650 50  0000 C CNN
 F 1 "Red" H 2100 6450 50  0000 C CNN
 F 2 "LEDs:LED_0402" H 2100 6550 60  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-109/S_110_LTST-C171KRKT.pdf" H 2100 6550 60  0001 C CNN
-F 4 "0805" H 2100 6550 60  0001 C CNN "Package ID"
-F 5 "LITE-ON" H 2100 6550 60  0001 C CNN "Manufacturer Name"
-F 6 "LTST-C171KRKT" H 2100 6550 60  0001 C CNN "Manufacturer Part Number"
+F 3 "http://www.digikey.com/product-detail/en/panasonic-electronic-components/LNJ247W82RA/LNJ247W82RACT-ND/2529247" H 2100 6550 60  0001 C CNN
+F 4 "1.95V, 5mA" H 2100 6550 60  0001 C CNN "Characteristics"
+F 5 "0805" H 2100 6550 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 2100 6550 60  0001 C CNN "Supplier"
+F 7 "Panasonic Electronic Components" H 2100 6550 60  0001 C CNN "Manufacturer Name"
+F 8 "LNJ247W82RA" H 2100 6550 60  0001 C CNN "Manufacturer Part Number"
+F 9 "LNJ247W82RACT-ND" H 2100 6550 60  0001 C CNN "Alt Manufacturer Partnumber"
+F 10 "LNJ247W82RACT-ND" H 2100 6550 60  0001 C CNN "Supplier Order number"
 	1    2100 6550
 	0    -1   -1   0   
-$EndComp
-$Comp
-L R R7
-U 1 1 53D8E4BE
-P 1500 6000
-F 0 "R7" V 1580 6000 40  0000 C CNN
-F 1 "680R" V 1507 6001 40  0000 C CNN
-F 2 "Resistors_SMD:R_0402_NoSilk" V 1430 6000 30  0001 C CNN
-F 3 "~" H 1500 6000 30  0000 C CNN
-	1    1500 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R8
-U 1 1 53D8E4C4
-P 1800 6000
-F 0 "R8" V 1880 6000 40  0000 C CNN
-F 1 "680R" V 1807 6001 40  0000 C CNN
-F 2 "Resistors_SMD:R_0402_NoSilk" V 1730 6000 30  0001 C CNN
-F 3 "~" H 1800 6000 30  0000 C CNN
-	1    1800 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R9
-U 1 1 53D8E4CA
-P 2100 6000
-F 0 "R9" V 2180 6000 40  0000 C CNN
-F 1 "680R" V 2107 6001 40  0000 C CNN
-F 2 "Resistors_SMD:R_0402_NoSilk" V 2030 6000 30  0001 C CNN
-F 3 "~" H 2100 6000 30  0000 C CNN
-	1    2100 6000
-	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR012
@@ -548,9 +513,14 @@ L R R6
 U 1 1 53D8E4B1
 P 1200 6000
 F 0 "R6" V 1280 6000 40  0000 C CNN
-F 1 "680R" V 1207 6001 40  0000 C CNN
+F 1 "100R" V 1207 6001 40  0000 C CNN
 F 2 "Resistors_SMD:R_0402_NoSilk" V 1130 6000 30  0001 C CNN
-F 3 "~" H 1200 6000 30  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_6.pdf" H 1200 6000 30  0001 C CNN
+F 4 "Thick film, 1%" H 1200 6000 60  0001 C CNN "Description"
+F 5 "Digikey" H 1200 6000 60  0001 C CNN "Supplier"
+F 6 "Yageo" H 1200 6000 60  0001 C CNN "Manufacturer Name"
+F 7 "RC0402FR-07100RL" H 1200 6000 60  0001 C CNN "Manufacturer Part Number"
+F 8 "311-100LRCT-ND" H 1200 6000 60  0001 C CNN "Supplier Order number"
 	1    1200 6000
 	1    0    0    -1  
 $EndComp
@@ -561,8 +531,13 @@ P 4000 6100
 F 0 "C12" H 4000 6200 40  0000 L CNN
 F 1 "100nF" H 4006 6015 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0402_NoSilk" H 4038 5950 30  0001 C CNN
-F 3 "~" H 4000 6100 60  0000 C CNN
-F 4 "3.3" H 4000 6100 60  0001 C CNN "Voltage"
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4000 6100 60  0001 C CNN
+F 4 "CERAMIC X7R, 6.3V, -10%/+10%, -55DEGC/+125DEGC" H 4000 6100 60  0001 C CNN "Characteristics"
+F 5 "0402" H 4000 6100 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 4000 6100 60  0001 C CNN "Supplier"
+F 7 "Murata Electronics North America" H 4000 6100 60  0001 C CNN "Manufacturer Name"
+F 8 "GRM155R70J104KA01D" H 4000 6100 60  0001 C CNN "Manufacturer Part Number"
+F 9 "490-6319-1-ND" H 4000 6100 60  0001 C CNN "Supplier Order number"
 	1    4000 6100
 	1    0    0    -1  
 $EndComp
@@ -580,75 +555,20 @@ $EndComp
 Text GLabel 3900 5750 0    51   Input ~ 0
 VDD
 $Comp
-L C C13
-U 1 1 53D9025F
-P 4200 6100
-F 0 "C13" H 4200 6200 40  0000 L CNN
-F 1 "100n" H 4206 6015 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0402_NoSilk" H 4238 5950 30  0001 C CNN
-F 3 "~" H 4200 6100 60  0000 C CNN
-F 4 "3.3" H 4200 6100 60  0001 C CNN "Voltage"
-	1    4200 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C14
-U 1 1 53D90265
-P 4400 6100
-F 0 "C14" H 4400 6200 40  0000 L CNN
-F 1 "100n" H 4406 6015 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0402_NoSilk" H 4438 5950 30  0001 C CNN
-F 3 "~" H 4400 6100 60  0000 C CNN
-F 4 "3.3" H 4400 6100 60  0001 C CNN "Voltage"
-	1    4400 6100
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C15
 U 1 1 53D9026B
 P 4600 6100
 F 0 "C15" H 4600 6200 40  0000 L CNN
 F 1 "1uF" H 4606 6015 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0402_NoSilk" H 4638 5950 30  0001 C CNN
-F 3 "~" H 4600 6100 60  0000 C CNN
-F 4 "3.3" H 4600 6100 60  0001 C CNN "Voltage"
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4600 6100 60  0001 C CNN
+F 4 "CERAMIC X7R, 6.3V, -10%/+10%, -55DEGC/+125DEGC" H 4600 6100 60  0001 C CNN "Characteristics"
+F 5 "0402" H 4600 6100 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 4600 6100 60  0001 C CNN "Supplier"
+F 7 "Murata Electronics North America" H 4600 6100 60  0001 C CNN "Manufacturer Name"
+F 8 "GRM155R61A105KE01D" H 4600 6100 60  0001 C CNN "Manufacturer Part Number"
+F 9 "490-12701-1-ND" H 4600 6100 60  0001 C CNN "Supplier Order number"
 	1    4600 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C16
-U 1 1 53D90271
-P 4800 6100
-F 0 "C16" H 4800 6200 40  0000 L CNN
-F 1 "100n" H 4806 6015 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0402_NoSilk" H 4838 5950 30  0001 C CNN
-F 3 "~" H 4800 6100 60  0000 C CNN
-F 4 "3.3" H 4800 6100 60  0001 C CNN "Voltage"
-	1    4800 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C17
-U 1 1 53D90277
-P 5000 6100
-F 0 "C17" H 5000 6200 40  0000 L CNN
-F 1 "100n" H 5006 6015 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0402_NoSilk" H 5038 5950 30  0001 C CNN
-F 3 "~" H 5000 6100 60  0000 C CNN
-F 4 "3.3" H 5000 6100 60  0001 C CNN "Voltage"
-	1    5000 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C18
-U 1 1 53D9027D
-P 5200 6100
-F 0 "C18" H 5200 6200 40  0000 L CNN
-F 1 "100n" H 5206 6015 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0402_NoSilk" H 5238 5950 30  0001 C CNN
-F 3 "~" H 5200 6100 60  0000 C CNN
-F 4 "3.3" H 5200 6100 60  0001 C CNN "Voltage"
-	1    5200 6100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -663,26 +583,19 @@ F 3 "" H 3100 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C19
-U 1 1 53D944CC
-P 5450 6100
-F 0 "C19" H 5450 6200 40  0000 L CNN
-F 1 "100n" H 5456 6015 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0402_NoSilk" H 5488 5950 30  0001 C CNN
-F 3 "~" H 5450 6100 60  0000 C CNN
-F 4 "3.3" H 5450 6100 60  0001 C CNN "Voltage"
-	1    5450 6100
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C20
 U 1 1 53D944D5
 P 5700 6100
 F 0 "C20" H 5700 6200 40  0000 L CNN
-F 1 "220p" H 5706 6015 40  0000 L CNN
+F 1 "220pF" H 5706 6015 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0402_NoSilk" H 5738 5950 30  0001 C CNN
-F 3 "~" H 5700 6100 60  0000 C CNN
-F 4 "3.3" H 5700 6100 60  0001 C CNN "Voltage"
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5700 6100 60  0001 C CNN
+F 4 "CERAMIC C0G/NP0, 50V, -5%/+5%, -55DEGC/+125DEGC" H 5700 6100 60  0001 C CNN "Characteristics"
+F 5 "0402" H 5700 6100 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 5700 6100 60  0001 C CNN "Supplier"
+F 7 "Murata Electronics North America" H 5700 6100 60  0001 C CNN "Manufacturer Name"
+F 8 "GRM1555C1H221JA01D" H 5700 6100 60  0001 C CNN "Manufacturer Part Number"
+F 9 "490-1293-1-ND" H 5700 6100 60  0001 C CNN "Supplier Order number"
 	1    5700 6100
 	1    0    0    -1  
 $EndComp
@@ -845,9 +758,10 @@ F 1 "Crystal" H 3850 4727 50  0000 C CNN
 F 2 "Crystals:Crystal_SMD_2012-2pin_2.0x1.2mm" H -1200 -400 50  0001 C CNN
 F 3 "https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-12D_en.pdf" H -1200 -400 50  0001 C CNN
 F 4 "CRYSTAL 32.768KHZ 12.5PF SMD" H 3850 4550 60  0001 C CNN "Description"
-F 5 "Epson" H 3850 4550 60  0001 C CNN "Manufacturer Name"
-F 6 "FC-12M 32.7680KA-A5" H 3850 4550 60  0001 C CNN "Manufacturer Part Number"
-F 7 "SER4080CT-ND" H 3850 4550 60  0001 C CNN "Supplier Order number"
+F 5 "Digikey" H 3850 4550 60  0001 C CNN "Supplier"
+F 6 "Epson" H 3850 4550 60  0001 C CNN "Manufacturer Name"
+F 7 "FC-12M 32.7680KA-A5" H 3850 4550 60  0001 C CNN "Manufacturer Part Number"
+F 8 "SER4080CT-ND" H 3850 4550 60  0001 C CNN "Supplier Order number"
 	1    3850 4550
 	1    0    0    -1  
 $EndComp
@@ -947,11 +861,12 @@ F 0 "J1" H 9675 3337 60  0000 C CNN
 F 1 "XBEE_with_jtag" H 9675 3231 60  0000 C CNN
 F 2 "SensorsUnleashed:XBEE-HEADER_with_JTAG" H 9750 1150 60  0001 C CNN
 F 3 "" H -1750 -950 60  0000 C CNN
-F 4 "Xbee header combined with a 10pin jtag header" H 9700 2600 60  0001 C CNN "Description"
-F 5 "Digikey" H 9700 2600 60  0001 C CNN "Supplier"
-F 6 "Harwin Inc." H 9700 2600 60  0001 C CNN "Manufacturer Name"
-F 7 "M50-3600542+" H 9700 2600 60  0001 C CNN "Manufacturer Part Number"
-F 8 "952-1389-ND +" H 9700 2600 60  0001 C CNN "Supplier Order number"
+F 4 "Custom - made from pinheaders 1.27mm pitch" H 9700 2600 60  0001 C CNN "Characteristics"
+F 5 "Xbee header combined with a 10pin jtag header" H 9700 2600 60  0001 C CNN "Description"
+F 6 "Digikey" H 9700 2600 60  0001 C CNN "Supplier"
+F 7 "Harwin Inc." H 9700 2600 60  0001 C CNN "Manufacturer Name"
+F 8 "M50-3600542+" H 9700 2600 60  0001 C CNN "Manufacturer Part Number"
+F 9 "952-1389-ND +" H 9700 2600 60  0001 C CNN "Supplier Order number"
 	1    9700 2600
 	1    0    0    -1  
 $EndComp
@@ -1139,8 +1054,10 @@ F 2 "Buttons_Switches_SMD:SW_SPST_B3U-1000P-B" H 1300 2250 50  0001 C CNN
 F 3 "http://www.omron.com/ecb/products/pdf/en-b3u.pdf" H 1300 2350 50  0001 C CNN
 F 4 "0.05A @ 12VDC" H 1200 2050 60  0001 C CNN "Characteristics"
 F 5 "SWITCH TACTILE SPST-NO" H 1200 2050 60  0001 C CNN "Description"
-F 6 "Omron" H 1200 2050 60  0001 C CNN "Manufacturer Name"
-F 7 "B3U-1000P-B" H 1200 2050 60  0001 C CNN "Manufacturer Part Number"
+F 6 "Digikey" H 1200 2050 60  0001 C CNN "Supplier"
+F 7 "Omron" H 1200 2050 60  0001 C CNN "Manufacturer Name"
+F 8 "B3U-1000P-B" H 1200 2050 60  0001 C CNN "Manufacturer Part Number"
+F 9 "SW1143CT-ND" H 1200 2050 60  0001 C CNN "Supplier Order number"
 	1    1200 2050
 	0    -1   -1   0   
 $EndComp
@@ -1151,8 +1068,13 @@ P 1700 2000
 F 0 "C3" H 1700 2100 40  0000 L CNN
 F 1 "15nF" H 1706 1915 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0402_NoSilk" H 1738 1850 30  0001 C CNN
-F 3 "~" H 1700 2000 60  0000 C CNN
-F 4 "3.3" H 1700 2000 60  0001 C CNN "Voltage"
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 1700 2000 60  0001 C CNN
+F 4 "CERM, 50V, +-10%, X7R" H 1700 2000 60  0001 C CNN "Characteristics"
+F 5 "0402" H 1700 2000 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 1700 2000 60  0001 C CNN "Supplier"
+F 7 "Murata Electronics North America" H 1700 2000 60  0001 C CNN "Manufacturer Name"
+F 8 "GRM155R71H153KA12J" H 1700 2000 60  0001 C CNN "Manufacturer Part Number"
+F 9 "490-6355-1-ND" H 1700 2000 60  0001 C CNN "Supplier Order number"
 	1    1700 2000
 	1    0    0    -1  
 $EndComp
@@ -1164,6 +1086,8 @@ F 0 "C7" H 1815 3746 50  0000 L CNN
 F 1 "1uF" H 1815 3655 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0402_NoSilk" H -600 -650 50  0001 C CNN
 F 3 "" H -600 -650 50  0001 C CNN
+F 4 "TANT, 10V, +-20%" H 1700 3700 60  0001 C CNN "Characteristics"
+F 5 "0402" H 1700 3700 60  0001 C CNN "Package ID"
 	1    1700 3700
 	1    0    0    -1  
 $EndComp
@@ -1172,9 +1096,15 @@ L R R2
 U 1 1 58B1CC4B
 P 1200 1500
 F 0 "R2" H 1130 1454 50  0000 R CNN
-F 1 "R" H 1130 1545 50  0000 R CNN
+F 1 "1k" H 1130 1545 50  0000 R CNN
 F 2 "Resistors_SMD:R_0402_NoSilk" V -270 -2050 50  0001 C CNN
-F 3 "" H -200 -2050 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_6.pdf" H -200 -2050 50  0001 C CNN
+F 4 "Thick film, 0.063W" H 1200 1500 60  0001 C CNN "Characteristics"
+F 5 "0402" H 1200 1500 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 1200 1500 60  0001 C CNN "Supplier"
+F 7 "Yageo" H 1200 1500 60  0001 C CNN "Manufacturer Name"
+F 8 "RC0402FR-071KL" H 1200 1500 60  0001 C CNN "Manufacturer Part Number"
+F 9 "311-1.00KLRCT-ND" H 1200 1500 60  0001 C CNN "Supplier Order number"
 	1    1200 1500
 	-1   0    0    1   
 $EndComp
@@ -1185,7 +1115,13 @@ P 1150 3100
 F 0 "R4" H 1080 3054 50  0000 R CNN
 F 1 "6.2k" H 1080 3145 50  0000 R CNN
 F 2 "Resistors_SMD:R_0402_NoSilk" V -320 -450 50  0001 C CNN
-F 3 "" H -250 -450 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_6.pdf" H -250 -450 50  0001 C CNN
+F 4 "Thick Film, 1%" H 1150 3100 60  0001 C CNN "Characteristics"
+F 5 "0402" H 1150 3100 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 1150 3100 60  0001 C CNN "Supplier"
+F 7 "Yageo" H 1150 3100 60  0001 C CNN "Manufacturer Name"
+F 8 "RC0402FR-076K2L" H 1150 3100 60  0001 C CNN "Manufacturer Part Number"
+F 9 "311-6.20KLRCT-ND" H 1150 3100 60  0001 C CNN "Supplier Order number"
 	1    1150 3100
 	-1   0    0    1   
 $EndComp
@@ -1196,7 +1132,13 @@ P 1450 3350
 F 0 "R5" V 1657 3350 50  0000 C CNN
 F 1 "30k" V 1566 3350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0402_NoSilk" V -20 -200 50  0001 C CNN
-F 3 "" H 50  -200 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_6.pdf" H 50  -200 50  0001 C CNN
+F 4 "Thick Film, 1%" H 1450 3350 60  0001 C CNN "Characteristics"
+F 5 "0402" H 1450 3350 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 1450 3350 60  0001 C CNN "Supplier"
+F 7 "Yageo" H 1450 3350 60  0001 C CNN "Manufacturer Name"
+F 8 "RC0402FR-0730KL" H 1450 3350 60  0001 C CNN "Manufacturer Part Number"
+F 9 "311-30.0KLRCT-ND" H 1450 3350 60  0001 C CNN "Supplier Order number"
 	1    1450 3350
 	0    -1   -1   0   
 $EndComp
@@ -1302,8 +1244,10 @@ F 2 "Buttons_Switches_SMD:SW_SPST_B3U-1000P-B" H 1100 4000 50  0001 C CNN
 F 3 "http://www.omron.com/ecb/products/pdf/en-b3u.pdf" H 1200 3850 50  0001 C CNN
 F 4 "0.05A @ 12VDC" H 1150 3700 60  0001 C CNN "Characteristics"
 F 5 "SWITCH TACTILE SPST-NO" H 1150 3700 60  0001 C CNN "Description"
-F 6 "Omron" H 1150 3700 60  0001 C CNN "Manufacturer Name"
-F 7 "B3U-1000P-B" H 1150 3700 60  0001 C CNN "Manufacturer Part Number"
+F 6 "Digikey" H 1150 3700 60  0001 C CNN "Supplier"
+F 7 "Omron" H 1150 3700 60  0001 C CNN "Manufacturer Name"
+F 8 "B3U-1000P-B" H 1150 3700 60  0001 C CNN "Manufacturer Part Number"
+F 9 "SW1143CT-ND" H 1150 3700 60  0001 C CNN "Supplier Order number"
 	1    1150 3700
 	0    -1   -1   0   
 $EndComp
@@ -1388,4 +1332,222 @@ Text Notes 5300 6550 2    28   ~ 0
 Place close \nto pin 43
 Text GLabel 4300 3950 0    51   Input ~ 0
 PC3/DIO10
+$Comp
+L R R7
+U 1 1 58C55AAA
+P 1500 6000
+F 0 "R7" V 1580 6000 40  0000 C CNN
+F 1 "100R" V 1507 6001 40  0000 C CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" V 1430 6000 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_6.pdf" H 1500 6000 30  0001 C CNN
+F 4 "Thick film, 1%" H 1500 6000 60  0001 C CNN "Description"
+F 5 "Digikey" H 1500 6000 60  0001 C CNN "Supplier"
+F 6 "Yageo" H 1500 6000 60  0001 C CNN "Manufacturer Name"
+F 7 "RC0402FR-07100RL" H 1500 6000 60  0001 C CNN "Manufacturer Part Number"
+F 8 "311-100LRCT-ND" H 1500 6000 60  0001 C CNN "Supplier Order number"
+	1    1500 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R8
+U 1 1 58C55B1E
+P 1800 6000
+F 0 "R8" V 1880 6000 40  0000 C CNN
+F 1 "100R" V 1807 6001 40  0000 C CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" V 1730 6000 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_6.pdf" H 1800 6000 30  0001 C CNN
+F 4 "Thick film, 1%" H 1800 6000 60  0001 C CNN "Description"
+F 5 "Digikey" H 1800 6000 60  0001 C CNN "Supplier"
+F 6 "Yageo" H 1800 6000 60  0001 C CNN "Manufacturer Name"
+F 7 "RC0402FR-07100RL" H 1800 6000 60  0001 C CNN "Manufacturer Part Number"
+F 8 "311-100LRCT-ND" H 1800 6000 60  0001 C CNN "Supplier Order number"
+	1    1800 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R9
+U 1 1 58C55B96
+P 2100 6000
+F 0 "R9" V 2180 6000 40  0000 C CNN
+F 1 "100R" V 2107 6001 40  0000 C CNN
+F 2 "Resistors_SMD:R_0402_NoSilk" V 2030 6000 30  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_6.pdf" H 2100 6000 30  0001 C CNN
+F 4 "Thick film, 1%" H 2100 6000 60  0001 C CNN "Description"
+F 5 "Digikey" H 2100 6000 60  0001 C CNN "Supplier"
+F 6 "Yageo" H 2100 6000 60  0001 C CNN "Manufacturer Name"
+F 7 "RC0402FR-07100RL" H 2100 6000 60  0001 C CNN "Manufacturer Part Number"
+F 8 "311-100LRCT-ND" H 2100 6000 60  0001 C CNN "Supplier Order number"
+	1    2100 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C13
+U 1 1 58C638F7
+P 4200 6100
+F 0 "C13" H 4200 6200 40  0000 L CNN
+F 1 "100nF" H 4206 6015 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 4238 5950 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4200 6100 60  0001 C CNN
+F 4 "CERAMIC X7R, 6.3V, -10%/+10%, -55DEGC/+125DEGC" H 4200 6100 60  0001 C CNN "Characteristics"
+F 5 "0402" H 4200 6100 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 4200 6100 60  0001 C CNN "Supplier"
+F 7 "Murata Electronics North America" H 4200 6100 60  0001 C CNN "Manufacturer Name"
+F 8 "GRM155R70J104KA01D" H 4200 6100 60  0001 C CNN "Manufacturer Part Number"
+F 9 "490-6319-1-ND" H 4200 6100 60  0001 C CNN "Supplier Order number"
+	1    4200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C14
+U 1 1 58C63963
+P 4400 6100
+F 0 "C14" H 4400 6200 40  0000 L CNN
+F 1 "100nF" H 4406 6015 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 4438 5950 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4400 6100 60  0001 C CNN
+F 4 "CERAMIC X7R, 6.3V, -10%/+10%, -55DEGC/+125DEGC" H 4400 6100 60  0001 C CNN "Characteristics"
+F 5 "0402" H 4400 6100 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 4400 6100 60  0001 C CNN "Supplier"
+F 7 "Murata Electronics North America" H 4400 6100 60  0001 C CNN "Manufacturer Name"
+F 8 "GRM155R70J104KA01D" H 4400 6100 60  0001 C CNN "Manufacturer Part Number"
+F 9 "490-6319-1-ND" H 4400 6100 60  0001 C CNN "Supplier Order number"
+	1    4400 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C16
+U 1 1 58C639D1
+P 4800 6100
+F 0 "C16" H 4800 6200 40  0000 L CNN
+F 1 "100nF" H 4806 6015 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 4838 5950 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4800 6100 60  0001 C CNN
+F 4 "CERAMIC X7R, 6.3V, -10%/+10%, -55DEGC/+125DEGC" H 4800 6100 60  0001 C CNN "Characteristics"
+F 5 "0402" H 4800 6100 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 4800 6100 60  0001 C CNN "Supplier"
+F 7 "Murata Electronics North America" H 4800 6100 60  0001 C CNN "Manufacturer Name"
+F 8 "GRM155R70J104KA01D" H 4800 6100 60  0001 C CNN "Manufacturer Part Number"
+F 9 "490-6319-1-ND" H 4800 6100 60  0001 C CNN "Supplier Order number"
+	1    4800 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C17
+U 1 1 58C63A49
+P 5000 6100
+F 0 "C17" H 5000 6200 40  0000 L CNN
+F 1 "100nF" H 5006 6015 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 5038 5950 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5000 6100 60  0001 C CNN
+F 4 "CERAMIC X7R, 6.3V, -10%/+10%, -55DEGC/+125DEGC" H 5000 6100 60  0001 C CNN "Characteristics"
+F 5 "0402" H 5000 6100 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 5000 6100 60  0001 C CNN "Supplier"
+F 7 "Murata Electronics North America" H 5000 6100 60  0001 C CNN "Manufacturer Name"
+F 8 "GRM155R70J104KA01D" H 5000 6100 60  0001 C CNN "Manufacturer Part Number"
+F 9 "490-6319-1-ND" H 5000 6100 60  0001 C CNN "Supplier Order number"
+	1    5000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C18
+U 1 1 58C63AC3
+P 5200 6100
+F 0 "C18" H 5200 6200 40  0000 L CNN
+F 1 "100nF" H 5206 6015 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 5238 5950 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5200 6100 60  0001 C CNN
+F 4 "CERAMIC X7R, 6.3V, -10%/+10%, -55DEGC/+125DEGC" H 5200 6100 60  0001 C CNN "Characteristics"
+F 5 "0402" H 5200 6100 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 5200 6100 60  0001 C CNN "Supplier"
+F 7 "Murata Electronics North America" H 5200 6100 60  0001 C CNN "Manufacturer Name"
+F 8 "GRM155R70J104KA01D" H 5200 6100 60  0001 C CNN "Manufacturer Part Number"
+F 9 "490-6319-1-ND" H 5200 6100 60  0001 C CNN "Supplier Order number"
+	1    5200 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C19
+U 1 1 58C63B37
+P 5450 6100
+F 0 "C19" H 5450 6200 40  0000 L CNN
+F 1 "100nF" H 5456 6015 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 5488 5950 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5450 6100 60  0001 C CNN
+F 4 "CERAMIC X7R, 6.3V, -10%/+10%, -55DEGC/+125DEGC" H 5450 6100 60  0001 C CNN "Characteristics"
+F 5 "0402" H 5450 6100 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 5450 6100 60  0001 C CNN "Supplier"
+F 7 "Murata Electronics North America" H 5450 6100 60  0001 C CNN "Manufacturer Name"
+F 8 "GRM155R70J104KA01D" H 5450 6100 60  0001 C CNN "Manufacturer Part Number"
+F 9 "490-6319-1-ND" H 5450 6100 60  0001 C CNN "Supplier Order number"
+	1    5450 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 58C67405
+P 3600 1550
+F 0 "C2" H 3600 1650 40  0000 L CNN
+F 1 "1uF" H 3606 1465 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 3638 1400 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 3600 1550 60  0001 C CNN
+F 4 "CERAMIC X7R, 6.3V, -10%/+10%, -55DEGC/+125DEGC" H 3600 1550 60  0001 C CNN "Characteristics"
+F 5 "0402" H 3600 1550 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 3600 1550 60  0001 C CNN "Supplier"
+F 7 "Murata Electronics North America" H 3600 1550 60  0001 C CNN "Manufacturer Name"
+F 8 "GRM155R61A105KE01D" H 3600 1550 60  0001 C CNN "Manufacturer Part Number"
+F 9 "490-12701-1-ND" H 3600 1550 60  0001 C CNN "Supplier Order number"
+	1    3600 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C4
+U 1 1 58C68B00
+P 3650 2200
+F 0 "C4" H 3650 2300 40  0000 L CNN
+F 1 "1uF" H 3656 2115 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 3688 2050 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 3650 2200 60  0001 C CNN
+F 4 "CERAMIC X7R, 6.3V, -10%/+10%, -55DEGC/+125DEGC" H 3650 2200 60  0001 C CNN "Characteristics"
+F 5 "0402" H 3650 2200 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 3650 2200 60  0001 C CNN "Supplier"
+F 7 "Murata Electronics North America" H 3650 2200 60  0001 C CNN "Manufacturer Name"
+F 8 "GRM155R61A105KE01D" H 3650 2200 60  0001 C CNN "Manufacturer Part Number"
+F 9 "490-12701-1-ND" H 3650 2200 60  0001 C CNN "Supplier Order number"
+	1    3650 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C6
+U 1 1 58C6A923
+P 3400 3000
+F 0 "C6" H 3400 3100 40  0000 L CNN
+F 1 "12pF" H 3406 2915 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 3438 2850 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 3400 3000 60  0001 C CNN
+F 4 "CERAMIC C0G/NP0, 50V, -5%/+5%, -55DEGC/+125DEGC" H 3400 3000 60  0001 C CNN "Characteristics"
+F 5 "0402" H 3400 3000 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 3400 3000 60  0001 C CNN "Supplier"
+F 7 "Murata Electronics North America" H 3400 3000 60  0001 C CNN "Manufacturer Name"
+F 8 "GRM1555C1H120JA01D" H 3400 3000 60  0001 C CNN "Manufacturer Part Number"
+F 9 "490-5924-1-ND" H 3400 3000 60  0001 C CNN "Supplier Order number"
+	1    3400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C9
+U 1 1 58C6BA8B
+P 4150 4800
+F 0 "C9" H 4150 4900 40  0000 L CNN
+F 1 "22pF" H 4156 4715 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0402_NoSilk" H 4188 4650 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4150 4800 60  0001 C CNN
+F 4 "CERAMIC C0G/NP0, 50V, -5%/+5%, -55DEGC/+125DEGC" H 4150 4800 60  0001 C CNN "Characteristics"
+F 5 "0402" H 4150 4800 60  0001 C CNN "Package ID"
+F 6 "Digikey" H 4150 4800 60  0001 C CNN "Supplier"
+F 7 "Murata Electronics North America" H 4150 4800 60  0001 C CNN "Manufacturer Name"
+F 8 "GRM1555C1H220JA01J" H 4150 4800 60  0001 C CNN "Manufacturer Part Number"
+F 9 "490-11382-1-ND" H 4150 4800 60  0001 C CNN "Supplier Order number"
+	1    4150 4800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

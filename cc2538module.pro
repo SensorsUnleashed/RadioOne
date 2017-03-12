@@ -1,4 +1,4 @@
-update=lør 25 feb 2017 21:15:49 CET
+update=søn 12 mar 2017 08:17:20 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -106,3 +106,13 @@ LibName43=fdn304p
 LibName44=at24c256c-sshl-t
 LibName45=AMS1117
 LibName46=Buttons
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
