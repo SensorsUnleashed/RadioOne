@@ -51,12 +51,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date "1 aug 2014"
-Rev ""
-Comp ""
+Title "Radio One"
+Date "2017-03-01"
+Rev "1.0"
+Comp "Sensors Unleashed - sensorsunleashed.com"
 Comment1 ""
-Comment2 ""
+Comment2 "Universal IEEE802.15.4 radio"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -340,23 +340,23 @@ $EndComp
 Text GLabel 8800 2150 0    51   Output ~ 0
 XBEE_VDD
 Text GLabel 6750 2350 2    51   Input ~ 0
-PA0/DIO0
+PA0/DIO7
 Text GLabel 6750 2450 2    51   Input ~ 0
-PA1/DIO1
+PA1/DIO6
 Text GLabel 6750 2550 2    51   Input ~ 0
-PA2/DIO2
+PA2/DIO5
 Text GLabel 6750 2650 2    51   Input ~ 0
-PA3/DIO3
+PA3/DIO4
 Text GLabel 6750 2750 2    51   Input ~ 0
-PA4/DIO4
+PA4/DIO3
 Text GLabel 6750 2850 2    51   Input ~ 0
-PA5/DIO5
+PA5/DIO2
 Text GLabel 6750 2950 2    51   Input ~ 0
-PA6/DIO6
+PA6/DIO1
 Text GLabel 6750 3050 2    51   Input ~ 0
-PA7/DIO7
+PA7/DIO0
 Text GLabel 4300 4050 0    51   Input ~ 0
-PB0/STAT
+PD3/STAT
 Text GLabel 6750 3350 2    51   Input ~ 0
 PB1/ON/BYP
 Text GLabel 6750 3550 2    51   Input ~ 0
@@ -503,11 +503,11 @@ F 3 "" H 2100 6800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1500 5750 1    51   Input ~ 0
-PC6/L2
+PC5/L2
 Text GLabel 1800 5750 1    51   Input ~ 0
-PC5/L1
+PC6/L1
 Text GLabel 2100 5750 1    51   Input ~ 0
-PC4/L0
+PC7/L0
 $Comp
 L R R6
 U 1 1 53D8E4B1
@@ -604,7 +604,7 @@ PC1/DIO8
 Text GLabel 4300 3050 0    51   Input ~ 0
 PC2/DIO9
 Text GLabel 1200 5750 1    51   Input ~ 0
-PC7/L3
+PC4/L3
 Text GLabel 10400 2950 2    51   Input ~ 0
 PC1/DIO8
 Text GLabel 10400 3050 2    51   Input ~ 0
@@ -975,7 +975,7 @@ XBEE_VDD
 Text GLabel 10300 5150 2    51   Output ~ 0
 VDD
 Text GLabel 7950 5150 0    51   Input ~ 0
-PB0/STAT
+PD3/STAT
 Text GLabel 9450 5250 2    51   Input ~ 0
 PB1/ON/BYP
 $Comp
@@ -1011,21 +1011,21 @@ Wire Wire Line
 	7900 5400 7900 5350
 Connection ~ 7900 5350
 Text GLabel 10400 2850 2    51   Input ~ 0
-PA0/DIO0
+PA0/DIO7
 Text GLabel 10400 2750 2    51   Input ~ 0
-PA1/DIO1
+PA1/DIO6
 Text GLabel 10400 2650 2    51   Input ~ 0
-PA2/DIO2
+PA2/DIO5
 Text GLabel 10400 2550 2    51   Input ~ 0
-PA3/DIO3
+PA3/DIO4
 Text GLabel 10400 2450 2    51   Input ~ 0
-PA4/DIO4
+PA4/DIO3
 Text GLabel 10400 2350 2    51   Input ~ 0
-PA5/DIO5
+PA5/DIO2
 Text GLabel 10400 2250 2    51   Input ~ 0
-PA6/DIO6
+PA6/DIO1
 Text GLabel 10400 2150 2    51   Input ~ 0
-PA7/DIO7
+PA7/DIO0
 Text GLabel 6750 3450 2    51   Input ~ 0
 PB2/DIO12
 Text GLabel 8950 2450 0    51   Input ~ 0
@@ -1035,15 +1035,15 @@ PB4/DIN
 Text GLabel 6750 3750 2    51   Input ~ 0
 PB5/DOUT
 Text GLabel 8950 2950 0    51   Input ~ 0
-PC3/DIO10
+PD2/DIO10
 Text GLabel 4300 3550 0    51   Input ~ 0
-PC4/L0
+PC7/L0
 Text GLabel 4300 3450 0    51   Input ~ 0
-PC5/L1
+PC6/L1
 Text GLabel 4300 3350 0    51   Input ~ 0
-PC6/L2
+PC5/L2
 Text GLabel 4300 3250 0    51   Input ~ 0
-PC7/L3
+PC4/L3
 $Comp
 L SW_PUSH SW1
 U 1 1 58B1CA07
@@ -1208,9 +1208,9 @@ NRST
 Connection ~ 1700 3350
 Connection ~ 1700 1700
 Text GLabel 1800 3350 2    60   Input ~ 0
-USER_BUTTON
+PD0/USER_BUTTON
 Text GLabel 4300 3750 0    60   Input ~ 0
-USER_BUTTON
+PD0/USER_BUTTON
 Wire Wire Line
 	4150 5000 4150 4950
 Wire Wire Line
@@ -1331,7 +1331,7 @@ Place close \nto pin 36
 Text Notes 5300 6550 2    28   ~ 0
 Place close \nto pin 43
 Text GLabel 4300 3950 0    51   Input ~ 0
-PC3/DIO10
+PD2/DIO10
 $Comp
 L R R7
 U 1 1 58C55AAA

@@ -1,6 +1,6 @@
-update=søn 12 mar 2017 08:17:20 CET
+update=man 13 mar 2017 20:50:56 CET
 version=1
-last_client=kicad
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=cc2538module.net
@@ -109,7 +109,7 @@ LibName46=Buttons
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=output/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
