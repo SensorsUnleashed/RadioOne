@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Radio One"
 Date "2017-03-01"
-Rev "1.0"
+Rev "B"
 Comp "Sensors Unleashed - sensorsunleashed.com"
 Comment1 ""
 Comment2 "Universal IEEE802.15.4 radio"
@@ -802,7 +802,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 3050 8950 3050
 $Comp
-L cc2538module-rescue:XBEE_with_jtag J1
+L xbee:XBEE_with_jtag J1
 U 1 1 58B15B09
 P 9700 2600
 F 0 "J1" H 9675 3337 60  0000 C CNN
